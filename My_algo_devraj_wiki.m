@@ -181,9 +181,6 @@ for di = 1 : dtN
                     B22(:, b) = sign(queryK2 * w);
                     z21 = 1 ./ (1 + exp(-RetrK2 * w));                                     % P(pos | V_2)     
                     z20 = 1 - z21;                                                         % P(neg | V_2)
-
-%                     % Retrieval Set (Combining)
-%                     B1(:, b) = sign(z11 .* z21 - z10 .* z20);                               % sign(P(pos | V_1)P(pos | V_2) - P(neg | V_1)P(neg | V_2))
                     
                     wt = 0.5;
                     B1(:, b) = sign(wt*(z11-z10)+(1-wt)*(z21-z20));

@@ -1,6 +1,8 @@
 This is the implementation of the paper 
 "Generalized Semantic Preserving Hashing for N-Label Cross-Modal Retrieval"
 in CVPR 2017
+The article can be found here :
+http://openaccess.thecvf.com/content_cvpr_2017/papers/Mandal_Generalized_Semantic_Preserving_CVPR_2017_paper.pdf
 
 ***********************************************************
 The implementations provided are for the Wiki and NUS-Wide 
